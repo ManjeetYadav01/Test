@@ -1,7 +1,6 @@
 Project: Parallel Image Processing with OpenCV
 
 Description:
-
 This Python script leverages OpenCV and multiprocessing to efficiently process a set of JPG images in parallel. For each image, it:
 
 Reads the Image: Loads the image from the specified directory.
@@ -16,16 +15,9 @@ Python
 OpenCV
 NumPy
 Multiprocessing
-Installation:
 
 Install Required Packages:
-Bash
-pip install opencv-python numpy multiprocessing
-Use code with caution.
-
-Usage:
-Replace the Image Directory: 
-Modify the image_dir variable in the main function to point to the directory containing your JPG images.
+! pip install opencv-python numpy multiprocessing
 
 Execute the file:
 test.ipynb
@@ -37,6 +29,3 @@ Additional Notes:
 For large datasets, consider further optimization techniques like asynchronous programming or GPU acceleration.
 Adjust the threshold value (200) to suit your specific image processing needs.
 Experiment with different output formats and compression levels to balance image quality and file size.
-
-License:
-This code is released under the MIT License.
